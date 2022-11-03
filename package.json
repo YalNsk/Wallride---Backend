@@ -1,0 +1,40 @@
+{
+  "name": "wallride-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YalNsk/Wallride---Backend.git"
+  },
+  "keywords": [
+    "skatehsop",
+    "e-shop",
+    "backend",
+    "javaScript"
+  ],
+  "author": "Yaël Nseke-Nzinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YalNsk/Wallride---Backend/issues"
+  },
+  "homepage": "https://github.com/YalNsk/Wallride---Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
